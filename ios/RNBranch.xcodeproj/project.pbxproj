@@ -250,6 +250,10 @@
 		44B8A8551E83235900C9B131 /* AppStore */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				HEADER_SEARCH_PATHS = (
+					"$(PODS_ROOT)/Headers/Public",
+					"$(BUILT_PRODUCTS_DIR)/../Release-$(PLATFORM_NAME)/include/**",
+				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "react-native-branch";
 				PUBLIC_HEADERS_FOLDER_PATH = "/usr/local/include/$(PRODUCT_NAME)";
@@ -307,6 +311,10 @@
 		44B8A8571E83236C00C9B131 /* AppStoreBeta */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				HEADER_SEARCH_PATHS = (
+					"$(PODS_ROOT)/Headers/Public",
+					"$(BUILT_PRODUCTS_DIR)/../Release-$(PLATFORM_NAME)/include/**",
+				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "react-native-branch";
 				PUBLIC_HEADERS_FOLDER_PATH = "/usr/local/include/$(PRODUCT_NAME)";
@@ -418,6 +426,10 @@
 		B3A3CC401C5B0A070016AC52 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				HEADER_SEARCH_PATHS = (
+					"$(PODS_ROOT)/Headers/Public",
+					"$(BUILT_PRODUCTS_DIR)/../Release-$(PLATFORM_NAME)/include/**",
+				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "react-native-branch";
 				PUBLIC_HEADERS_FOLDER_PATH = "/usr/local/include/$(PRODUCT_NAME)";
@@ -427,6 +439,10 @@
 		B3A3CC411C5B0A070016AC52 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				HEADER_SEARCH_PATHS = (
+					"$(PODS_ROOT)/Headers/Public",
+					"$(BUILT_PRODUCTS_DIR)/../Release-$(PLATFORM_NAME)/include/**",
+				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "react-native-branch";
 				PUBLIC_HEADERS_FOLDER_PATH = "/usr/local/include/$(PRODUCT_NAME)";
